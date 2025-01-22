@@ -52,7 +52,13 @@ body{max-width: 1440px;
             justify-content: center;
             
         }
-        .haf{width: 640px;}
+        .haf{width: 640px;
+            }
+
+
+.marquee{overflow-x: hidden;
+font-size: 1.30rem;
+font-weight: 200;}
 
 
 
@@ -65,7 +71,13 @@ body{max-width: 1440px;
                     font-weight: 500;}
         /* section button style  */
 
-        .section-btn{background: black;}
+        .section-btn{background: black;
+            color: #FFFFFF;
+            font-size: 1.20rem;
+            font-weight: 600;
+            border: none;
+            border-radius:12px ;
+            padding:10px 60px;}
 
 /* standard-curriculum section style */
 
@@ -77,23 +89,28 @@ body{max-width: 1440px;
 
               }
     .arrow-button{ justify-content: center;
+                    margin-top: 20px;
                     gap: 20px;}
     .standard-titel{ font-size: 3rem;
                     font-weight: 900;
                 text-align: center;}
 
     .card-box{margin-top: 80px;
-        justify-content: center;}
+        justify-content: center;
+       }
     .card-titel{font-size: 2.25rem;
             
                 font-weight: 900;}
     .card-1{width:367px ;
-            margin-left: 30px;
+            margin-left: 0px;
             height: 476px;
             border-radius: 19px;
             padding: 20px ;
             text-align: center;
+           
+            box-shadow:0px 0px  6px 1px  rgba(47, 45, 45, 0.286);
             background-image:linear-gradient( #DEF5FF,#FFFFFF) ;
+           
         }
 
         .card-2{width:367px ;
@@ -102,6 +119,7 @@ body{max-width: 1440px;
             border-radius: 19px;
             padding: 20px ;
             text-align: center;
+            box-shadow:0px 0px  6px 1px  rgba(47, 45, 45, 0.286);
             background-image:linear-gradient( #FFF4DC,#FFFFFF) ;
         }
         .card-3{width:367px ;
@@ -110,6 +128,7 @@ body{max-width: 1440px;
             border-radius: 19px;
             padding: 20px ;
             text-align: center;
+            box-shadow:0px 0px  6px 1px  rgba(47, 45, 45, 0.286);
             background-image:linear-gradient( #F2E8FF,#FFFFFF) ;
         }
 
@@ -118,6 +137,7 @@ body{max-width: 1440px;
                     font-size: 1rem;
                     font-weight: 900;
                     margin-top: 38px;
+                    
 
                                         }
 
@@ -125,8 +145,9 @@ body{max-width: 1440px;
         color:orange;
         font-size: 1rem;
         font-weight: 900;
-        margin-top: 38px;
-                            }
+        margin-top: 38px; }
+
+
     .card-btn-3{border: none;
     color:#8700FF;
     font-size: 1rem;
@@ -137,10 +158,10 @@ body{max-width: 1440px;
 
 .our-image-continar{max-width: 1440px;
                     margin: 0 auto;
-                    height:1018px ;
+                    height:800px ;
                     justify-content: center;
                     gap: 19px;
-                    margin-top: 50px;
+                    margin-top: 60px;
                     
                     background-image:url(/assets/bg.png) ;
                     background-image: linear-gradient(#ffff,rgba(255, 166, 0, 0.557));}
@@ -148,7 +169,8 @@ body{max-width: 1440px;
     .stories-1-img{width: 540px;
                 background-color:#e4d4d4 ;
                 justify-content: left;
-                height: 610px;
+                height: 602px;
+               
                 }
 .margin-centar{margin: 0 20px;}
 
@@ -158,6 +180,7 @@ body{max-width: 1440px;
                 border-radius:48px ;
                 padding:15px 28px ;
                 border: none;
+               
                 position: absolute;
                 margin-top: -25px;
             margin-left: 40px;}
@@ -167,6 +190,7 @@ body{max-width: 1440px;
                 width: 601px;
                 height: 622px;
                 gap: 10px;
+               
                }
 
 .stories-2-img>img{width: 100%;}
@@ -175,7 +199,7 @@ body{max-width: 1440px;
 .stories-2-img{width: 290px;
             background-color:#d98585 ;
             justify-content: left;
-            height: 301px; border-radius: 10px;}
+             border-radius: 10px;}
 
 
 
@@ -183,17 +207,17 @@ body{max-width: 1440px;
 .stories-3-img{width: 290px;
     background-color:#5d97a4 ;
     justify-content: left;
-    height: 301px; border-radius: 10px;}
+    border-radius: 10px;}
 
-    .stories-4-img{width: 290px;
+    .stories-4-img{width: 292px;
         background-color:#db63c9 ;
         justify-content: left;
-        height: 301px; border-radius: 10px;}
+         border-radius: 10px;}
 
     .stories-5-img{width: 290px;
         background-color:#32cb47 ;
         justify-content: left;
-        height: 301px; border-radius: 10px;}
+        border-radius: 10px;}
 
 
 
@@ -234,12 +258,20 @@ margin-left: 40px;}
     margin-top: -25px;
 margin-left: 40px;}
 
-.stories-btn-center{text-align: center;}
+.stories-btn-center{display: block;
+    text-align: center;
+    background: black;
+    color: #FFFFFF;
+    font-size: 1.20rem;
+    font-weight: 600;
+    border: none;
+    border-radius:12px ;
+    padding:10px 30px;}
 
 
 /* footer section style  */
 
-footer{justify-content: space-around;
+footer{justify-content: space-evenly;
         
             background-color:#bf3b7d5e ;
               }
@@ -254,11 +286,105 @@ footer{justify-content: space-around;
 .footer-link{font-size: 1.25rem;
                 font-weight: 600;
             position: relative;
-            right: 70px;
+            right: 60px;
            }
+
 .footer-link>li{padding-top: 30px;}
 
 .logo-section{position: relative;
-            right: -200px;
+    right: -100px;
             font-size: 2rem;
             font-weight: 900;}
+#pandda-image{width: 105px;
+                height: 115px;}
+.pandda{align-items: center;}
+
+.footer-titel{font-size:3.10rem ;}
+.footer-description{width:300px ;}
+
+.footer-kids{position: relative;
+                right: 70px;}
+
+.hide{display: none;}
+
+
+/* responsiv style  */
+
+
+
+
+
+            @media screen and (max-width:578px){
+
+                /*nav section   */
+
+             .nav-titel,
+             .nav-links,
+             .nav-btn{display: none;}  
+            .bars{background-image: url(/assets/bars-3.png );
+                    background-repeat: no-repeat;
+                    height: 30px;
+                    width: 30px;
+                    position: relative;
+                right: -290px;  
+                       }
+            header{border-bottom: 2px solid goldenrod;
+                       margin-top:20px ;
+                        padding: 10px;}
+            .kinder{position: relative;
+                    right:50px ;}
+/* hero section  */
+                .hero-continar
+                {
+                    display: grid;
+                    grid-template-columns: repeat( 1fr);
+                    align-items: center;
+                    
+                   }
+                
+            
+            .haf{width: 80%;
+                margin: 0 auto;
+                justify-items: center;
+                align-items: center;
+            }
+
+            .section-img{width:90%;
+                        margin: 0 24px;
+                       justify-content: center;
+                       
+                       }
+
+                       /* standard curriculum section */
+            .card-box{display: grid;
+                    grid-template-columns: repeat(1fr);
+                    row-gap: 20px;
+                    width:calc(100% - 5%);}
+            .arrow-button{display:none ;}
+
+            /* our stories section  */
+
+            .stories-1-img{display: none;}
+
+            .imgage-continar-4{display: grid;
+                            grid-template-columns: repeat(2, 1fr);
+                            width: 425px;
+                        margin: 0 auto;
+            }
+            /* footer section  */
+            footer{height:942px ;}
+            .footer-kids{position: relative;
+                        left: 1px;}
+            .footer-titel{font-size: 2.2rem;
+                        }
+            .pandda-image{width: 70px;
+                        height: 70px;}
+            .footer-continar{display: grid;
+                            grid-template-columns: repeat(1fr);
+                        }
+            .logo-section{position: relative;
+                            right: 20px;}
+            .footer-link{position: relative;
+                            left: -80px;
+                           }
+            }
